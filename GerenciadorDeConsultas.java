@@ -46,8 +46,3 @@ public class GerenciadorDeConsultas {
         gerenciador.listarConsulta();
     }
 }
-
-/* duvidas: 
-- Como diferenciar consultas consulta e consultar
-- Qual a ordem dos acontecimentos
-*/
