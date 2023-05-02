@@ -32,7 +32,11 @@ public class GerenciadorDeConsultas {
 
     //excluir consulta
     public void removerConsulta(int numero) {
+        if(numero <0 || numero > consultar.size()){
+            System.out.println("Numero nao existe");
+        }else{
         consultar.remove(numero);
+    }
     }
 
     
